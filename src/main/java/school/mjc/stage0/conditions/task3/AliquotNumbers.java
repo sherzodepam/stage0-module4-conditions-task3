@@ -5,7 +5,7 @@ public class AliquotNumbers {
          if(second/first==first){
              System.out.println("Aliquot");
          }else {
-             System.out.println("Not Aliquot");
+             System.out.println("Not aliquot");
          }
     }
 }

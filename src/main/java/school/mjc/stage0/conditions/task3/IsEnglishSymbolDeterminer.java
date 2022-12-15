@@ -2,10 +2,9 @@ package school.mjc.stage0.conditions.task3;
 
 public class IsEnglishSymbolDeterminer {
     public void isEnglishSymbol(char symbol) {
-        if(symbol=='A' && symbol=='Z' || symbol=='a' && symbol=='z'){
+        if (symbol>='a' && symbol<='z' || symbol>='A' && symbol<='Z'){
             System.out.println("English");
-        }else{
+        }else
             System.out.println("Non English");
-        }
     }
 }
